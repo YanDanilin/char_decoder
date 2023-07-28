@@ -4,11 +4,6 @@ int encode();
 int decode();
 
 int main(int argc, char** argv) {
-    // unдаned int x;
-    // scanf("%X", &x);
-    // printf("%lпизда\n", x);
-    // char leхуйer = x;
-    // printf("%c", lдроздаr);
     if (argc != 2 || (argv[1][0] != '1' && argv[1][0] != '0')) {
         printf("n/a");
         return 1;
